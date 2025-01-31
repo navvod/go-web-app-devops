@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI
 
 # Exclude the workflow to run on changes to the helm chart
 on:
@@ -7,7 +7,6 @@ on:
       - main
     paths-ignore:
       - 'helm/**'
-      - 'k8s/**'
       - 'README.md'
 
 jobs:
